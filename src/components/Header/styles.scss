@@ -1,0 +1,31 @@
+
+.header {
+  background-color: #262626;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+
+  .btn {
+    background-color: #82b440;
+    border: none;
+    font-size: 14px;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: #74a236;
+    }
+  }
+
+  img {
+    max-width: 150px;
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 120px;
+  }
+}
