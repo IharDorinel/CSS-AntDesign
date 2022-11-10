@@ -29,7 +29,6 @@ export function Footer() {
             <div className={'info-block'}>
                 <div className={'info'}>
                     <div className={'header-info'}>Our products</div>
-                    <div className='divider'></div>
                     <div>
                         <a rel="noreferrer" href="https://g-axon.com/wieldy-ant-design-react-redux-admin-template/" target="_blank">Wiedly</a>
                     </div>
@@ -39,7 +38,6 @@ export function Footer() {
                 </div>
                 <div className={'info'}>
                     <div className={'header-info'}>Important Links</div>
-                    <div className='divider'></div>
                     <div>
                         <a rel="noreferrer" href="https://g-axon.com/about-us/" target="_blank">About Us</a>
                     </div>
@@ -52,7 +50,6 @@ export function Footer() {
                 </div>
                 <div className={'info'}>
                     <div className={'header-info'}>Our Offices</div>
-                    <div className='divider'></div>
                     <span>6 Carriage Hill Drive, Far Hills
                         USA, NJ 07931
                     </span>
